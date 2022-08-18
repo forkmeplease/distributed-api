@@ -5,13 +5,12 @@ import (
 
 	"github.com/micro/distributed-api/streams/handler"
 	pb "github.com/micro/distributed-api/streams/proto"
-	"gorm.io/driver/postgres"
-	"gorm.io/gorm"
-
 	"github.com/micro/micro/v3/service"
 	"github.com/micro/micro/v3/service/config"
 	"github.com/micro/micro/v3/service/events"
 	"github.com/micro/micro/v3/service/logger"
+	"gorm.io/driver/postgres"
+	"gorm.io/gorm"
 )
 
 var dbAddress = "postgresql://postgres:postgres@localhost:5432/streams?sslmode=disable"

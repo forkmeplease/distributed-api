@@ -4,9 +4,9 @@ import (
 	"context"
 
 	"github.com/google/uuid"
+	pb "github.com/micro/distributed-api/users/proto"
 	"github.com/micro/micro/v3/service/errors"
 	"github.com/micro/micro/v3/service/logger"
-	pb "github.com/micro/distributed-api/users/proto"
 	"gorm.io/gorm"
 )
 

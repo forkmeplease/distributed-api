@@ -7,9 +7,9 @@ import (
 	"gorm.io/gorm"
 
 	"github.com/google/uuid"
+	pb "github.com/micro/distributed-api/seen/proto"
 	"github.com/micro/micro/v3/service/errors"
 	"github.com/micro/micro/v3/service/logger"
-	pb "github.com/micro/distributed-api/seen/proto"
 	"google.golang.org/protobuf/types/known/timestamppb"
 )
 

@@ -3,8 +3,8 @@ package handler
 import (
 	"time"
 
-	"github.com/micro/micro/v3/service/errors"
 	pb "github.com/micro/distributed-api/threads/proto"
+	"github.com/micro/micro/v3/service/errors"
 	"google.golang.org/protobuf/types/known/timestamppb"
 	"gorm.io/gorm"
 )

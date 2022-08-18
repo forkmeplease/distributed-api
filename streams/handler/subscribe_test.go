@@ -6,9 +6,9 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/micro/micro/v3/service/events"
 	"github.com/micro/distributed-api/streams/handler"
 	pb "github.com/micro/distributed-api/streams/proto"
+	"github.com/micro/micro/v3/service/events"
 	"github.com/stretchr/testify/assert"
 )
 

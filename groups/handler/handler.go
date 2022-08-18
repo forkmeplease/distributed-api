@@ -5,8 +5,8 @@ import (
 	"strings"
 
 	"github.com/google/uuid"
-	"github.com/micro/micro/v3/service/errors"
 	pb "github.com/micro/distributed-api/groups/proto"
+	"github.com/micro/micro/v3/service/errors"
 	"gorm.io/gorm"
 )
 

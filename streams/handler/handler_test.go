@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/micro/micro/v3/service/events"
 	"github.com/micro/distributed-api/streams/handler"
+	"github.com/micro/micro/v3/service/events"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 )

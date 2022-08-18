@@ -3,8 +3,8 @@ package handler
 import (
 	"context"
 
-	"github.com/micro/micro/v3/service/logger"
 	pb "github.com/micro/distributed-api/streams/proto"
+	"github.com/micro/micro/v3/service/logger"
 )
 
 func (s *Streams) Publish(ctx context.Context, req *pb.Message, rsp *pb.PublishResponse) error {

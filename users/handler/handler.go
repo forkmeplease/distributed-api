@@ -4,8 +4,8 @@ import (
 	"regexp"
 	"time"
 
-	"github.com/micro/micro/v3/service/errors"
 	pb "github.com/micro/distributed-api/users/proto"
+	"github.com/micro/micro/v3/service/errors"
 	"golang.org/x/crypto/bcrypt"
 	"gorm.io/gorm"
 )

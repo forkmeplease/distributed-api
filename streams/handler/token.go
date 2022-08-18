@@ -4,9 +4,9 @@ import (
 	"context"
 
 	"github.com/google/uuid"
+	pb "github.com/micro/distributed-api/streams/proto"
 	"github.com/micro/micro/v3/service/errors"
 	"github.com/micro/micro/v3/service/logger"
-	pb "github.com/micro/distributed-api/streams/proto"
 )
 
 func (s *Streams) Token(ctx context.Context, req *pb.TokenRequest, rsp *pb.TokenResponse) error {
