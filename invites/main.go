@@ -9,6 +9,7 @@ import (
 	"github.com/micro/micro/v3/service/logger"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
+	"gorm.io/gorm/schema"
 )
 
 var dbAddress = "postgresql://postgres:postgres@localhost:5432/invites?sslmode=disable"
@@ -26,7 +27,11 @@ func main() {
 		logger.Fatalf("Error loading config: %v", err)
 	}
 	addr := cfg.String(dbAddress)
-	db, err := gorm.Open(postgres.Open(addr), &gorm.Config{})
+	db, err := gorm.Open(postgres.Open(addr), &gorm.Config{
+		NamingStrategy: schema.NamingStrategy{
+			TablePrefix: "invites_",
+		},
+	})
 	if err != nil {
 		logger.Fatalf("Error connecting to database: %v", err)
 	}
