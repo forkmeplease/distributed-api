@@ -6,8 +6,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/m3o/distributed-api/users/handler"
-	pb "github.com/m3o/distributed-api/users/proto"
+	"github.com/micro/distributed-api/users/handler"
+	pb "github.com/micro/distributed-api/users/proto"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 )

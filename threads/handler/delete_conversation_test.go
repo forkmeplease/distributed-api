@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/m3o/distributed-api/threads/handler"
-	pb "github.com/m3o/distributed-api/threads/proto"
+	"github.com/micro/distributed-api/threads/handler"
+	pb "github.com/micro/distributed-api/threads/proto"
 
 	"github.com/google/uuid"
 	"github.com/stretchr/testify/assert"

@@ -8,8 +8,8 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/m3o/distributed-api/chats/handler"
-	pb "github.com/m3o/distributed-api/chats/proto"
+	"github.com/micro/distributed-api/chats/handler"
+	pb "github.com/micro/distributed-api/chats/proto"
 	"github.com/stretchr/testify/assert"
 	"google.golang.org/protobuf/types/known/wrapperspb"
 )

@@ -3,8 +3,8 @@ package main
 import (
 	"time"
 
-	"github.com/m3o/distributed-api/threads/handler"
-	pb "github.com/m3o/distributed-api/threads/proto"
+	"github.com/micro/distributed-api/threads/handler"
+	pb "github.com/micro/distributed-api/threads/proto"
 
 	"github.com/micro/micro/v3/service"
 	"github.com/micro/micro/v3/service/config"

@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/micro/micro/v3/service/errors"
-	pb "github.com/m3o/distributed-api/users/proto"
+	pb "github.com/micro/distributed-api/users/proto"
 	"golang.org/x/crypto/bcrypt"
 	"gorm.io/gorm"
 )

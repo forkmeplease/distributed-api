@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/m3o/distributed-api/codes/handler"
+	"github.com/micro/distributed-api/codes/handler"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 )

@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/micro/micro/v3/service/events"
-	"github.com/m3o/distributed-api/streams/handler"
+	"github.com/micro/distributed-api/streams/handler"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 )

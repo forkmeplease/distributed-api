@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/m3o/distributed-api/codes/handler"
-	pb "github.com/m3o/distributed-api/codes/proto"
+	"github.com/micro/distributed-api/codes/handler"
+	pb "github.com/micro/distributed-api/codes/proto"
 	"github.com/stretchr/testify/assert"
 	"google.golang.org/protobuf/types/known/timestamppb"
 )

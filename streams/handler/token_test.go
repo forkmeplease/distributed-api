@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	pb "github.com/m3o/distributed-api/streams/proto"
+	pb "github.com/micro/distributed-api/streams/proto"
 	"github.com/stretchr/testify/assert"
 )
 

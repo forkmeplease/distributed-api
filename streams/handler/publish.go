@@ -4,7 +4,7 @@ import (
 	"context"
 
 	"github.com/micro/micro/v3/service/logger"
-	pb "github.com/m3o/distributed-api/streams/proto"
+	pb "github.com/micro/distributed-api/streams/proto"
 )
 
 func (s *Streams) Publish(ctx context.Context, req *pb.Message, rsp *pb.PublishResponse) error {

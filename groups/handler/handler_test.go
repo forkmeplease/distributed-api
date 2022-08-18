@@ -6,8 +6,8 @@ import (
 	"testing"
 
 	"github.com/google/uuid"
-	"github.com/m3o/distributed-api/groups/handler"
-	pb "github.com/m3o/distributed-api/groups/proto"
+	"github.com/micro/distributed-api/groups/handler"
+	pb "github.com/micro/distributed-api/groups/proto"
 	"github.com/stretchr/testify/assert"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"

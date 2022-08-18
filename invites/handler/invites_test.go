@@ -6,8 +6,8 @@ import (
 
 	"google.golang.org/protobuf/types/known/wrapperspb"
 
-	"github.com/m3o/distributed-api/invites/handler"
-	pb "github.com/m3o/distributed-api/invites/proto"
+	"github.com/micro/distributed-api/invites/handler"
+	pb "github.com/micro/distributed-api/invites/proto"
 
 	"github.com/google/uuid"
 	"github.com/stretchr/testify/assert"

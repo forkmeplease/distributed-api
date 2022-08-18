@@ -6,7 +6,7 @@ import (
 
 	"github.com/google/uuid"
 	"github.com/micro/micro/v3/service/errors"
-	pb "github.com/m3o/distributed-api/groups/proto"
+	pb "github.com/micro/distributed-api/groups/proto"
 	"gorm.io/gorm"
 )
 

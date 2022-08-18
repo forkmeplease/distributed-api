@@ -4,7 +4,7 @@ import (
 	"time"
 
 	"github.com/micro/micro/v3/service/errors"
-	pb "github.com/m3o/distributed-api/threads/proto"
+	pb "github.com/micro/distributed-api/threads/proto"
 	"google.golang.org/protobuf/types/known/timestamppb"
 	"gorm.io/gorm"
 )

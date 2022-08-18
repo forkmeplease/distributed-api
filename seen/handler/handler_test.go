@@ -6,8 +6,8 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/m3o/distributed-api/seen/handler"
-	pb "github.com/m3o/distributed-api/seen/proto"
+	"github.com/micro/distributed-api/seen/handler"
+	pb "github.com/micro/distributed-api/seen/proto"
 	"github.com/stretchr/testify/assert"
 	"google.golang.org/protobuf/types/known/timestamppb"
 	"gorm.io/driver/postgres"

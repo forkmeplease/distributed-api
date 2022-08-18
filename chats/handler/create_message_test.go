@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/m3o/distributed-api/chats/handler"
-	pb "github.com/m3o/distributed-api/chats/proto"
+	"github.com/micro/distributed-api/chats/handler"
+	pb "github.com/micro/distributed-api/chats/proto"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
 	"github.com/google/uuid"

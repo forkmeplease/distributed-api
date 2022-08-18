@@ -3,8 +3,8 @@ package main
 import (
 	"time"
 
-	"github.com/m3o/distributed-api/chats/handler"
-	pb "github.com/m3o/distributed-api/chats/proto"
+	"github.com/micro/distributed-api/chats/handler"
+	pb "github.com/micro/distributed-api/chats/proto"
 
 	"github.com/micro/micro/v3/service"
 	"github.com/micro/micro/v3/service/config"

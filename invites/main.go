@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/m3o/distributed-api/invites/handler"
-	pb "github.com/m3o/distributed-api/invites/proto"
+	"github.com/micro/distributed-api/invites/handler"
+	pb "github.com/micro/distributed-api/invites/proto"
 
 	"github.com/micro/micro/v3/service"
 	"github.com/micro/micro/v3/service/config"

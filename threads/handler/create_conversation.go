@@ -6,7 +6,7 @@ import (
 	"github.com/google/uuid"
 	"github.com/micro/micro/v3/service/errors"
 	"github.com/micro/micro/v3/service/logger"
-	pb "github.com/m3o/distributed-api/threads/proto"
+	pb "github.com/micro/distributed-api/threads/proto"
 )
 
 // Create a conversation

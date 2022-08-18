@@ -5,7 +5,6 @@ go 1.18
 require (
 	github.com/golang/protobuf v1.5.2
 	github.com/google/uuid v1.3.0
-	github.com/m3o/distributed-api v0.0.0-20220818193021-187b36e6c7a6
 	github.com/micro/micro/v3 v3.12.4-0.20220818060719-d147d1bd893c
 	github.com/stretchr/testify v1.8.0
 	golang.org/x/crypto v0.0.0-20220817201139-bc19a97f63c8

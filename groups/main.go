@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/m3o/distributed-api/groups/handler"
-	pb "github.com/m3o/distributed-api/groups/proto"
+	"github.com/micro/distributed-api/groups/handler"
+	pb "github.com/micro/distributed-api/groups/proto"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 

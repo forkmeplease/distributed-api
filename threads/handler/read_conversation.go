@@ -7,7 +7,7 @@ import (
 
 	"github.com/micro/micro/v3/service/errors"
 	"github.com/micro/micro/v3/service/logger"
-	pb "github.com/m3o/distributed-api/threads/proto"
+	pb "github.com/micro/distributed-api/threads/proto"
 )
 
 // Read a conversation using its ID, can filter using group ID if provided

@@ -6,7 +6,7 @@ import (
 
 	"github.com/micro/micro/v3/service/errors"
 	"github.com/micro/micro/v3/service/logger"
-	pb "github.com/m3o/distributed-api/users/proto"
+	pb "github.com/micro/distributed-api/users/proto"
 	"gorm.io/gorm"
 )
 

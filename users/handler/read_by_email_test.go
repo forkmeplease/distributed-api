@@ -5,8 +5,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/m3o/distributed-api/users/handler"
-	pb "github.com/m3o/distributed-api/users/proto"
+	"github.com/micro/distributed-api/users/handler"
+	pb "github.com/micro/distributed-api/users/proto"
 	"github.com/stretchr/testify/assert"
 )
 

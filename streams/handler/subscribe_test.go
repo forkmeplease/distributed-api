@@ -7,8 +7,8 @@ import (
 
 	"github.com/google/uuid"
 	"github.com/micro/micro/v3/service/events"
-	"github.com/m3o/distributed-api/streams/handler"
-	pb "github.com/m3o/distributed-api/streams/proto"
+	"github.com/micro/distributed-api/streams/handler"
+	pb "github.com/micro/distributed-api/streams/proto"
 	"github.com/stretchr/testify/assert"
 )
 

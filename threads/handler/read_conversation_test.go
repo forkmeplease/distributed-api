@@ -5,8 +5,8 @@ import (
 	"testing"
 
 	"github.com/google/uuid"
-	"github.com/m3o/distributed-api/threads/handler"
-	pb "github.com/m3o/distributed-api/threads/proto"
+	"github.com/micro/distributed-api/threads/handler"
+	pb "github.com/micro/distributed-api/threads/proto"
 	"github.com/stretchr/testify/assert"
 	"google.golang.org/protobuf/types/known/wrapperspb"
 )

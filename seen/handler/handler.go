@@ -9,7 +9,7 @@ import (
 	"github.com/google/uuid"
 	"github.com/micro/micro/v3/service/errors"
 	"github.com/micro/micro/v3/service/logger"
-	pb "github.com/m3o/distributed-api/seen/proto"
+	pb "github.com/micro/distributed-api/seen/proto"
 	"google.golang.org/protobuf/types/known/timestamppb"
 )
 

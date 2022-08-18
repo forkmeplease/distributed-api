@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"time"
 
-	pb "github.com/m3o/distributed-api/chats/proto"
+	pb "github.com/micro/distributed-api/chats/proto"
 
 	"github.com/micro/micro/v3/service/errors"
 	"google.golang.org/protobuf/types/known/timestamppb"
