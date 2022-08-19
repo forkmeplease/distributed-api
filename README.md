@@ -1,6 +1,6 @@
 # Distributed API
 
-The API backend for [distributed](https://github.com/m3o/distributed).
+The API backend for [distributed](https://distributed.app).
 
 ## Overview
 
